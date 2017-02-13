@@ -165,7 +165,7 @@
     <div class="ui inverted vertical masthead center aligned segment stacked">
 
         <div class="ui text container">
-            <h1 class="ui inverted header">
+            <h1 class="ui inverted header wow bounceInLeft">
                 <img src="images/logo.png" class="ui medium rounded image">
             </h1>
             <h2>
@@ -213,7 +213,7 @@
 
         <!-- Cards -->
         <div class="ui link cards centered">
-            <div class="card">
+            <div class="card wow flipInX"  data-wow-delay=".25s">
                 <div class="image">
                   <img src="images/deals.png">
                 </div>
@@ -225,7 +225,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card wow flipInX"  data-wow-delay=".5s">
                 <div class="image">
                   <img src="images/one-click.png">
                 </div>
@@ -237,7 +237,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card wow flipInX"  data-wow-delay=".75s">
                 <div class="image">
                   <img src="images/metrics.png">
                 </div>
@@ -249,7 +249,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card wow flipInX"  data-wow-delay="1s">
                 <div class="image">
                   <img src="images/ml.png">
                 </div>
@@ -320,4 +320,11 @@
     </div>
 </div>
 </body>
+
+<script>
+    $(function(){
+        new WOW().init();
+    });
+</script>
+
 </html>
