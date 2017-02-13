@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <!-- Site Properties -->
+    <title>Blinc - This is your place.</title>
+    <link rel="stylesheet" type="text/css" href="dist/components/reset.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/site.css">
+
+    <link rel="stylesheet" type="text/css" href="dist/components/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/container.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/grid.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/header.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/image.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/menu.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/card.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/feed.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/divider.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/segment.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/button.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/list.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/label.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/item.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/statistic.css">
+    <link rel="stylesheet" type="text/css" href="dist/components/transition.css">
+
+    <style type="text/css">
+
+        .hidden.menu {
+            display: none;
+        }
+
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+        .masthead h1.ui.header {
+            margin-top: 1em;
+            margin-bottom: -.2em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+            .masthead.segment {
+                min-height: 350px;
+            }
+
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+
+
+    </style>
+
+    <script src="assets/library/jquery.min.js"></script>
+    <script src="assets/library/typed.js"></script>
+    <script src="dist/components/visibility.js"></script>
+    <script src="dist/components/sidebar.js"></script>
+    <script src="dist/components/transition.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+
+
+</head>
+<body>
+
+<!-- Following Menu -->
+<div class="ui large top fixed menu">
+    <div class="ui container">
+        <a href="#" class="active item">Home</a>
+        <a href="#about" class="item">About</a>
+        <a href="#helpus" class="item">Help Us</a>
+        <a href="https://angel.co/vertex-laboratories/jobs" class="item">Jobs</a>
+    </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a href="#" class="active item">Home</a>
+    <a href="#about" class="item">About</a>
+    <a href="#helpus" class="item">Help Us</a>
+    <a href="https://angel.co/vertex-laboratories/jobs" class="item">Jobs</a>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+    
+    <!-- Logo and Beta Signup -->
+    <div class="ui inverted vertical masthead center aligned segment stacked">
+
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                <img src="images/capture.png" class="ui medium rounded image">
+            </h1>
+            <h2>
+                <span class="intro">Your <b>Business</b>, Your <b>Data</b>, Your <b>Way</b>. </span>
+            </h2>
+            <br>
+            <a href="beta-test.html">
+            <button class="ui inverted button large">SIGN UP FOR BETA</button>
+            </a>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+                <div class="six wide floated center column wow bounceInRight">
+                    <img src="images/phones.png" class="ui large centered rounded image">
+                </div>
+
+        </div>
+    </div>
+
+
+    <!-- About -->
+    <div id="about" class="ui vertical stripe centered segment bounceInRight">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column wow bounceInLeft">
+                    <h3 class="ui header">About</h3>
+                        <p>
+                        <br>
+
+                        <b>"Likes" don't mean purchases</b>, so we designed our app to give you <i>metrics that mean something</i>.
+                        Unlike traditional marketing and social media, where it is difficult to measure success, our analytics dashboard allows you to effortlessly track and view how your campaign is working. <br><br> We know you are busy running your business. Let us worry about how to <b>help your business grow</b>. Blinc premium uses advanced data science to help provide recommendations for your business based on your category, location, current offers, and customer data in your local area.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
+        <!-- Cards -->
+        <div class="ui link cards centered">
+            <div class="card">
+                <div class="image">
+                  <img src="images/deals.png">
+                </div>
+                <div class="content">
+                  <div class="header">More than Deals</div>
+                  <div class="description">
+                    Blinc allows you to market and advertise how <b>YOU</b> want. We do not force you to offer a deal or discount on your goods or services, nor do we ask for a "cut" of your profits.
+                  </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                  <img src="images/one-click.png">
+                </div>
+                <div class="content">
+                  <div class="header">Push Notifications</div>
+                  <div class="description">
+                    Maximize your business' reach in order to attract customers interested in what you're offering. When you make a new post, your customers see it, guarenteed.
+                  </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                  <img src="images/metrics.png">
+                </div>
+                <div class="content">
+                  <div class="header">Actionable Insights</div>
+                  <div class="description">
+                    Our real-time analytics provide the insight needed to make an agile pivot at any time. If you spot a trend or decide to make a change, we provide the information neccesary to make a quick decision.
+                  </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                  <img src="images/ml.png">
+                </div>
+                <div class="content">
+                  <div class="header">Data Consulting</div>
+                  <div class="description">
+                    Looking to expand your business? Open a new location? Start a new business? Let us help you make the right decision. Blinc uses data science to provide specific insights that could determine whether or not your next move will be successful.
+                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Survey -->
+    <div id="helpus" class="ui inverted vertical masthead center aligned segment stacked">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="ui text container">
+            <h1 class="ui inverted header">
+                <span> Shape Your Data.</span>
+            </h1>
+            <h2>
+                <span class="intro">Data driven insights are the only thing standing between your company and the future. Help us bring you the metrics you want from your advertising. </span>
+            </h2>
+            <br>
+            <a href="customer-survey.html">
+            <button class="ui inverted button large">Take the Survey</button>
+            </a>
+
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="ui vertical footer segment">
+        <div class="ui container">
+            <div class="ui stackable divided equal height stackable grid">
+                <div class="three wide column">
+                    <h4 class="ui header">Contact Us</h4>
+                    <div class="ui link list">
+                        <a href="mailto:dnjuboor@gmail.com" class="item">Email</a>
+                        <a href="instagram.com/vertexlabs_/" class="item">LinkedIn</a>
+                        <a href="https://angel.co/vertex-laboratories" class="item">Angel</a>
+                    </div>
+                </div>
+                <div class="seven wide column">
+                    <h4 class="ui header">Legal</h4>
+                    <div class="ui link list">
+                        <a href="www.holdmyramen.com" class="item">Terms of Service<br></a>
+                        <a href="https://semantic-ui.com" class="item"><br>All rights reserved. <br>© 2017 Blinc, Inc.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
