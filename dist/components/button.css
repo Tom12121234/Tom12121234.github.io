@@ -32,7 +32,7 @@
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  border-radius: 0.28571429rem;
+  border-radius: 0.6rem;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -343,9 +343,9 @@
 --------------------*/
 
 .ui.inverted.button {
-  box-shadow: 0px 0px 0px 2px #7E5A2F inset !important;
-  background: #D4B38B;
-  color: #7E5A2F;
+  box-shadow: 0px 0px 0px 2px #1C87CA inset !important;
+  background: #FFFFFF;
+  color: #1C87CA;
   text-shadow: none !important;
 }
 
@@ -367,22 +367,27 @@
 
 /* Hover */
 .ui.inverted.button:hover {
-  background: #E2CBB0;
+  box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
+  background: #1C87CA;
+  color: #FFFFFF;
+  text-shadow: none !important;
 }
 
 /* Active / Focus */
 .ui.inverted.button:focus,
 .ui.inverted.button.active {
-  background: #7E5A2F;
-  box-shadow: 0px 0px 0px 2px #7E5A2F inset !important;
-  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 0px 2px #1C87CA inset !important;
+  background: #FFFFFF;
+  color: #1C87CA;
+  text-shadow: none !important;
 }
 
 /* Active Focus */
 .ui.inverted.button.active:focus {
-  background: #DCDDDE;
-  box-shadow: 0px 0px 0px 2px #DCDDDE inset !important;
-  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 0px 2px #1C87CA inset !important;
+  background: #FFFFFF;
+  color: #1C87CA;
+  text-shadow: none !important;
 }
 
 /*-------------------
@@ -730,7 +735,7 @@
   background: transparent none !important;
   color: rgba(0, 0, 0, 0.6) !important;
   font-weight: normal;
-  border-radius: 0.28571429rem;
+  border-radius: 0.6rem;
   text-transform: none;
   text-shadow: none !important;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
@@ -738,7 +743,7 @@
 .ui.basic.buttons {
   box-shadow: none;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 0.28571429rem;
+  border-radius: 0.6rem;
 }
 .ui.basic.buttons .button {
   border-radius: 0em;
@@ -3453,7 +3458,7 @@
   border-bottom-right-radius: 0.28571429rem;
 }
 .ui.vertical.buttons .button:only-child {
-  border-radius: 0.28571429rem;
+  border-radius: 0.6rem;
 }
 
 

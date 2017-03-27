@@ -21,7 +21,7 @@
 
 .ui.menu {
   display: -webkit-box;
-  display: -webkit-flex;
+  display: -webkit-flex
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
