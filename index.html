@@ -121,6 +121,20 @@
     <script src="dist/components/transition.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
 
+    <script>
+        $(document)
+                .ready(function() {
+
+                    // create sidebar and attach to menu open
+                    $('.ui.sidebar')
+                            .sidebar('attach events', '.toc.item')
+                    ;
+
+                })
+        ;
+    </script>
+
+
 
     <script>
         (function(i, s, o, g, r, a, m) {
